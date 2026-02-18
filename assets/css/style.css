@@ -114,7 +114,7 @@ nav{
 /* HERO */
 header{
   height:100vh;
-  background:url("/assets/img/1.JPG") center/cover no-repeat;
+  background:url("assets/img/1.JPG") center/cover no-repeat;
   position:relative;
   display:flex;
   align-items:center;
