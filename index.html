@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mohammad Reza Nasiri | Photographer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+<nav>
+  <div class="logo" id="logo">Mohammad Reza Nasiri</div>
+  <div style="display: flex; align-items: center; gap:10px;">
+    <div class="lang-switch">
+      <button class="lang-btn active" data-lang="fa">فا</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+    <div class="menu">
+      <a href="/index.html" data-i18n="home">Home</a>
+      <a href="/index2.html" data-i18n="about">About</a>
+      <a href="/index3.html" data-i18n="works">Works</a>
+      <a href="/index4.html" data-i18n="contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<header id="home">
+  <div class="hero">
+    <h1 id="hero-title">Mohammad Reza Nasiri</h1>
+    <!-- سه دکمه خوشگل با آیکون -->
+    <div class="hero-buttons">
+      <a href="/index3.html" class="glass-icon-btn">
+        <i class="fas fa-camera-retro"></i>
+        <span data-i18n="worksBtn">نمونه کارها</span>
+      </a>
+      <a href="/index2.html" class="glass-icon-btn">
+        <i class="fas fa-user-astronaut"></i>
+        <span data-i18n="aboutBtn">درباره من</span>
+      </a>
+      <a href="index4.html" class="glass-icon-btn">
+        <i class="fas fa-moon"></i>
+        <span data-i18n="contactBtn">ارتباط با من</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container about">
+    <div>
+      <h2 data-i18n="aboutTitle">About Me</h2>
+      <p data-i18n="aboutDesc">
+        Mohammad Reza Nasiri is a professional photographer with over 8 years of experience
+        in portrait photography, editing and production. His work is defined by elegance,
+        emotional depth and a timeless visual language.
+      </p>
+    </div>
+
+    <div class="gallery" id="works">
+      <div class="photo"><img src="assets/img/2.jpg" alt="work 1"></div>
+      <div class="photo"><img src="assets/img/3.jpg" alt="work 2"></div>
+      <div class="photo"><img src="assets/img/4.jpg" alt="work 3"></div>
+      <div class="photo"><img src="assets/img/5.jpg" alt="work 4"></div>
+    </div>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox">
+  <img id="lightbox-img">
+</div>
+
+<footer id="contact">
+  <div class="contact">
+    <a href="tel:09017282137"><i class="fas fa-phone-alt"></i> 0901 728 2137</a>
+    <a href="https://instagram.com/mhmmad_n1" target="_blank"><i class="fab fa-instagram"></i> @mhmmad_n1</a>
+    <a href="https://t.me/mhmmd_n1" target="_blank"><i class="fab fa-telegram-plane"></i> @mhmmd_n1</a>
+  </div>
+</footer>
+<script src="/assets/js/script.js"></script>
+
+</body>
+</html>
